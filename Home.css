@@ -1,0 +1,109 @@
+.home-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+   color:#333;
+    background:linear-gradient(135deg,#121b2d,#121b2d);
+}
+.home-section{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:50px;
+    width:100%;
+    color:white;
+    max-width:1200px;
+    margin:0 auto;
+}
+.home-content{
+    max-width:50%;
+}
+.home-content h1{
+    font-size:3rem;
+    font-weight:bold;
+    margin-bottom:20px;
+
+}
+.home-content p {
+    font-size:1.5rem;
+    margin:20px 0;
+    color:white;
+}
+.home-button{
+    padding:12px 24px;
+    background-color:transparent;
+    border:2px solid white;
+    color:white;
+    font-size:1rem;
+    cursor:pointer;
+    border-radius:5px;
+    transition:background-color 0.3s ease;
+}
+.home-button:hover{
+    background-color:white;
+    color:#1d2671;
+}
+.home-image img{
+    max-width:400px;
+    border-radius:15px;
+}
+
+.tech-transform-section{
+    text-align:center;
+    padding:50px;
+    background-color:white;
+    width:100%;
+}
+.tech-transform-content h2{
+    font-size:2.5rem;
+    color:white;
+}
+.tech-transform-content p{
+    font-size:1.2rem;
+    margin:20px 0;
+    color:white;
+}
+.transform-button{
+    padding:10px 20px;
+    background-color:#1d2671;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    transition:background-color 0.3s ease;
+}
+.transform-button:hover{
+    background-color:#c33764;
+}
+.tech-services{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+}
+.service-box{
+    width:200px;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0px 4px 15px rgba(0,0,0,0.1);
+    text-align:center;
+    transition:transform 0.3s ease,box-shadow 0.3s ease;
+}
+.service-box h3{
+    font-size:1.5rem;
+    margin-bottom:15px;
+}
+.service-box.it-consultancy{
+    background-color:#fce5d8;
+}
+.service-box.web-development{
+    background-color:#d1f6ef;
+}
+.service-box.expert-professional{
+    background-color:#f6fbd4;
+}
+.service-box:hover{
+    transform:translateY(-10px);
+    box-shadow:0px 8px 20px rgba(0,0,0,0.15);
+}
